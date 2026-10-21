@@ -1,38 +1,76 @@
-# Personal Developer Portfolio & Project Showcase
+# ✨ My Personal Portfolio Website
 
-A modern, responsive developer portfolio built with **pure HTML5, CSS3 and JavaScript (ES6+)** — no frameworks. DecodeLabs Project 1, Batch 2026.
+A modern, responsive personal portfolio built with **HTML5, CSS3, and JavaScript (ES6+)** to showcase my skills, projects, education, and development journey.
 
-**Live demo:** _add your Vercel / Netlify / GitHub Pages URL here_
+**DecodeLabs – Project 1 | Batch 2026**
 
-## Features
-- Semantic HTML5 (`header`, `nav`, `main`, `section`, `article`, `footer`)
-- Mobile-first layout with CSS Grid + Flexbox, breakpoints at 768px and 1024px, `clamp()` fluid typography
-- Dark / Light theme toggle (remembers choice, respects system preference)
-- Responsive hamburger menu, smooth scrolling, active-link highlighting
-- Project cards with an accessible modal popup (`<dialog>`)
-- Contact form with JavaScript validation and accessible error messages
-- Palette: Mocha Mousse, Ethereal Blue, Moonlit Grey · Fonts: Montserrat + Open Sans (3 weights)
-- Accessibility: skip link, keyboard support, focus styles, alt text, reduced-motion support
+## 📸 Screenshots
 
-## Project structure
-```
+| Home Page | Technical Skills |
+|:---:|:---:|
+| ![Home Page](assets/Screenshot-4.png) | ![Technical Skills](assets/Screenshot-3.png) |
+
+| Projects | Education And Resume |
+|:---:|:---:|
+| ![Projects](assets/Screenshot-2.png) | ![Education And Resume](assets/Screenshot-1.png) |
+
+## 🚀 Features
+
+- Modern and fully responsive design
+- Dark and Light Mode
+- Mobile-friendly navigation
+- Smooth scrolling and active navigation links
+- About Me and Technical Skills sections
+- Featured Projects showcase
+- Education and downloadable CV
+- Contact form with JavaScript validation
+- Accessible and keyboard-friendly interface
+
+## 🛠️ Built With
+
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- CSS Grid & Flexbox
+- Google Fonts – Montserrat & Open Sans
+
+## 📂 Project Structure
+
+```text
+My-Personal-Portfolio-Website/
+├── assets/
+│   ├── screenshot-1.png
+│   ├── screenshot-2.png
+│   ├── screenshot-3.png
+│   ├── screenshot-4.png
+│   ├── avatar.svg
+│   └── ...
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
 ├── index.html
-├── css/style.css
-├── js/script.js
-├── assets/ (avatar.svg, project-*.svg, cv.pdf)
 └── README.md
 ```
 
-## Customise
-1. Replace "Your Full Name", email, LinkedIn and GitHub links in `index.html`.
-2. Replace `assets/avatar.svg` with your photo (e.g. `profile.webp`, update the `<img>`).
-3. Put your CV at `assets/cv.pdf`.
-4. Edit the `projects` array in `js/script.js` and the project cards in `index.html` (real screenshots, demo and repo links).
-5. Add screenshots of the site to this README.
+## 🌐 Live Demo
 
-## Deploy
-- **GitHub Pages:** Settings → Pages → Deploy from branch `main` / root.
-- **Netlify / Vercel:** import the repo, no build command, publish directory `/`.
+[View My Portfolio](YOUR_LIVE_DEMO_LINK)
 
-## Contact form
-The form validates on the client only. To receive messages, connect Formspree, Netlify Forms or EmailJS in `js/script.js`.
+## 👩‍💻 About Me
+
+**Hajira Yousuf Ali**  
+Software Engineering Student | Full-Stack Developer  
+📍 Hargeisa, Somaliland
+
+I enjoy creating modern web applications, exploring new technologies, and turning ideas into practical digital solutions.
+
+## 📬 Connect With Me
+
+- **GitHub:** [HajiraYousuf](https://github.com/HajiraYousuf)
+- **LinkedIn:** [Hajira Yousuf](https://www.linkedin.com/in/hajira-yousuf/)
+- **Email:** hajirayousuf180@gmail.com
+
+---
+
+⭐ *Designed and developed with passion by Hajira Yousuf Ali.*
