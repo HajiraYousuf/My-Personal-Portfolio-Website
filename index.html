@@ -1,0 +1,565 @@
+
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hajira Yousuf Ali - Software Engineering Student and Full-Stack Developer. Explore my skills, projects and experience.">
+  <meta name="author" content="Hajira Yousuf Ali">
+  <meta name="theme-color" content="#F2F0EA">
+
+  <title>Hajira Yousuf Ali | Full-Stack Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="assets/avatar.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script>
+    try {
+      let theme = localStorage.getItem("theme");
+      if (!theme) {
+        theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      }
+      document.documentElement.setAttribute("data-theme", theme);
+    } catch (error) {}
+  </script>
+</head>
+
+<body>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- Header & Navigation -->
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+
+      <a href="#home" class="logo" aria-label="Hajira Yousuf Ali home">
+        HY<span>.</span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to dark theme">
+          <svg class="icon-moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <path fill="currentColor" d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/>
+          </svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <circle cx="12" cy="12" r="4.5" fill="currentColor"/>
+            <g stroke="currentColor" stroke-width="2" stroke-linecap="round">
+              <path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22"/>
+              <path d="M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/>
+            </g>
+          </svg>
+        </button>
+
+        <button class="icon-btn hamburger" id="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- Hero Section -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+
+      <div class="container hero-grid">
+
+        <div class="hero-text reveal">
+          <p class="eyebrow">Hello, I'm</p>
+
+          <h1 id="hero-title">Hajira Yousuf Ali</h1>
+
+          <p class="hero-role">
+            Software Engineering Student | Full-Stack Developer
+          </p>
+
+          <p class="hero-intro">
+            I'm a Software Engineering student passionate about building
+            modern, responsive and user-friendly web applications.
+            I enjoy turning ideas into practical digital solutions
+            using modern web technologies.
+          </p>
+
+          <div class="hero-buttons">
+
+            <a class="btn btn-primary" href="assets/Hajira_Yousuf_CV.pdf" download>
+              Download CV
+            </a>
+
+            <a class="btn btn-outline" href="#contact">
+              Contact Me
+            </a>
+
+          </div>
+        </div>
+
+        <div class="hero-photo reveal">
+          <div class="photo-frame">
+            <img
+              src="assets/profile.jpeg"
+              alt="Hajira Yousuf Ali - Software Engineering Student and Full-Stack Developer"
+              width="400"
+              height="400"
+              fetchpriority="high"
+            >
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about" aria-labelledby="about-title">
+
+      <div class="container">
+
+        <header class="section-head reveal">
+          <p class="eyebrow">Get to know me</p>
+          <h2 id="about-title">About Me</h2>
+        </header>
+
+        <div class="about-grid">
+
+          <article class="card reveal">
+            <h3>Introduction</h3>
+            <p>
+              My name is Hajira Yousuf Ali. I'm a Software Engineering
+              student and Full-Stack Developer interested in creating
+              modern web applications and solving real-world problems
+              through technology.
+            </p>
+          </article>
+
+          <article class="card reveal">
+            <h3>Education</h3>
+            <p>
+              Currently pursuing a Bachelor of Science in Software
+              Engineering at Abaarso Tech University, where I am
+              developing my knowledge of programming, databases,
+              software development and web technologies.
+            </p>
+          </article>
+
+          <article class="card reveal">
+            <h3>Professional Interests</h3>
+            <p>
+              Full-stack web development, frontend development,
+              backend development, database management,
+              responsive design and software engineering.
+            </p>
+          </article>
+
+          <article class="card reveal">
+            <h3>Career Goals</h3>
+            <p>
+              My goal is to become a skilled Software Engineer,
+              contribute to meaningful technology projects,
+              gain professional experience and continuously
+              improve my development skills.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section section-alt" id="skills" aria-labelledby="skills-title">
+
+      <div class="container">
+
+        <header class="section-head reveal">
+          <p class="eyebrow">My technical knowledge</p>
+          <h2 id="skills-title">Technical Skills</h2>
+        </header>
+
+        <div class="skills-grid">
+
+          <article class="card skill-card reveal">
+            <h3>Programming Languages</h3>
+            <ul class="tags">
+              <li>JavaScript</li>
+              <li>Python</li>
+              <li>Java</li>
+              <li>C#</li>
+              <li>PHP</li>
+            </ul>
+          </article>
+
+          <article class="card skill-card reveal">
+            <h3>Frontend Development</h3>
+            <ul class="tags">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>React</li>
+              <li>Tailwind CSS</li>
+              <li>JavaScript</li>
+              <li>Responsive Design</li>
+            </ul>
+          </article>
+
+          <article class="card skill-card reveal">
+            <h3>Backend Development</h3>
+            <ul class="tags">
+              <li>Django</li>
+              <li>Laravel</li>
+              <li>ASP.NET Web Forms</li>
+            </ul>
+          </article>
+
+          <article class="card skill-card reveal">
+            <h3>Database Management</h3>
+            <ul class="tags">
+              <li>PostgreSQL</li>
+              <li>MySQL</li>
+              <li>SQL Server</li>
+              <li>SQL</li>
+            </ul>
+          </article>
+
+          <article class="card skill-card reveal">
+            <h3>Development Tools</h3>
+            <ul class="tags">
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>VS Code</li>
+              <li>Visual Studio</li>
+              <li>pgAdmin</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    
+<!-- Projects Section -->
+<section class="section" id="projects" aria-labelledby="projects-title">
+  <div class="container">
+    <header class="section-head reveal">
+      <p class="eyebrow">Things I've built</p>
+      <h2 id="projects-title">Featured Projects</h2>
+    </header>
+
+    <div class="projects-grid">
+
+      <!-- Project 1 -->
+      <article class="card project-card reveal" >
+        <img src="assets/project-1.png" alt="IronCore Gym Management System" width="640" height="400" loading="lazy">
+        <div class="project-body">
+          <h3>IronCore Gym Management System</h3>
+          <p>
+            A gym management system developed to manage gym operations,
+            member information and other essential gym activities.
+          </p>
+          <ul class="tags">
+            <li>C#</li>
+            <li>ASP.NET Web Forms</li>
+            <li>SQL Server</li>
+          </ul>
+          <div class="project-actions">
+            <a class="btn btn-small btn-outline" href="https://github.com/HajiraYousuf/Gym_Management_System" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="card project-card reveal" data-project="1">
+        <img src="assets/project-2.png" alt="React E-Commerce Application" width="640" height="400" loading="lazy">
+        <div class="project-body">
+          <h3>React E-Commerce Application</h3>
+          <p>
+            A responsive e-commerce application featuring product browsing,
+            product details, shopping cart and checkout functionality.
+          </p>
+          <ul class="tags">
+            <li>React</li>
+            <li>JavaScript</li>
+            <li>Tailwind CSS</li>
+            <li>Axios</li>
+          </ul>
+          <div class="project-actions">
+            <a class="btn btn-small btn-outline" href="https://github.com/HajiraYousuf/E-commerce-react-app" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="card project-card reveal" data-project="2">
+        <img src="assets/project-3.png" alt="Tourism Management System" width="640" height="400" loading="lazy">
+        <div class="project-body">
+          <h3>Tourism Management System</h3>
+          <p>
+            A tourism web application that allows users to explore
+            destinations, discover tours and manage their tour bookings.
+          </p>
+          <ul class="tags">
+            <li>React</li>
+            <li>JavaScript</li>
+            <li>Tailwind CSS</li>
+            <li>React Router</li>
+          </ul>
+          <div class="project-actions">
+            <a class="btn btn-small btn-outline" href="https://github.com/HajiraYousuf/Tourism-Management" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+    <!-- Education & Resume -->
+    <section class="section section-alt" id="education" aria-labelledby="edu-title">
+
+      <div class="container">
+
+        <header class="section-head reveal">
+          <p class="eyebrow">My academic journey</p>
+          <h2 id="edu-title">Education & Resume</h2>
+        </header>
+
+        <div class="edu-grid">
+
+          <article class="card reveal">
+
+            <h3>University Education</h3>
+
+            <p class="edu-main">Abaarso Tech University</p>
+
+            <p>Bachelor of Science in Software Engineering</p>
+
+            <p class="muted">2025 – 2027</p>
+
+            <p class="muted">Hargeisa, Somaliland</p>
+
+          </article>
+
+          <article class="card reveal">
+
+            <h3>Professional Development</h3>
+
+            <ul class="check-list">
+              <li>DecodeLabs Industrial Training Program – Batch 2026</li>
+              <li>Full-Stack Web Development</li>
+              <li>Frontend Development</li>
+              <li>Database Management</li>
+            </ul>
+
+          </article>
+
+          <article class="card resume-card reveal">
+
+            <h3>My Resume</h3>
+
+            <p>
+              Explore my educational background, technical skills
+              and development projects in my resume.
+            </p>
+
+            <a class="btn btn-primary"
+               href="assets/Hajira_Yousuf_CV.pdf"
+               download>
+              Download CV
+            </a>
+
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact" aria-labelledby="contact-title">
+
+      <div class="container">
+
+        <header class="section-head reveal">
+          <p class="eyebrow">Let's connect</p>
+          <h2 id="contact-title">Contact Me</h2>
+        </header>
+
+        <div class="contact-grid">
+
+          <div class="contact-info reveal">
+            <div class="contact-card">
+              <p class="eyebrow">Get in touch</p>
+              <h3>Let's Work Together</h3>
+              <p class="contact-description">
+                Have a project in mind or an opportunity to share?
+                I'd love to hear from you. Feel free to contact me.
+              </p>
+
+              <div class="contact-items">
+                <a href="mailto:hajirayousuf180@gmail.com" class="contact-item">
+                  <span class="contact-icon">
+                    <i class="icon">✉</i>
+                  </span>
+                  <span>
+                    <small>Email Address</small>
+                    <strong>hajirayousuf180@gmail.com</strong>
+                  </span>
+                </a>
+
+                <a href="tel:YOUR_PHONE_NUMBER" class="contact-item">
+                  <span class="contact-icon">☎</span>
+                  <span>
+                    <small>Phone Number</small>
+                    <strong>+252 63 8210213</strong>
+                  </span>
+                </a>
+
+                <a href="https://www.linkedin.com/in/hajira-yousuf/"
+                  target="_blank" rel="noopener" class="contact-item">
+                  <span class="contact-icon">in</span>
+                  <span>
+                    <small>LinkedIn</small>
+                    <strong>linkedin.com/in/hajira-yousuf</strong>
+                  </span>
+                </a>
+
+                <a href="https://github.com/HajiraYousuf"
+                  target="_blank" rel="noopener" class="contact-item">
+                  <span class="contact-icon">⌘</span>
+                  <span>
+                    <small>GitHub</small>
+                    <strong>github.com/HajiraYousuf</strong>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <form class="card contact-form" id="contact-form" novalidate>
+
+            <div class="field">
+              <label for="name">Full Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                autocomplete="name"
+                required
+                aria-describedby="name-error"
+              >
+              <p class="error" id="name-error" role="alert"></p>
+            </div>
+
+            <div class="field">
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                autocomplete="email"
+                required
+                aria-describedby="email-error"
+              >
+              <p class="error" id="email-error" role="alert"></p>
+            </div>
+
+            <div class="field">
+              <label for="message">Your Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+                aria-describedby="message-error"
+              ></textarea>
+              <p class="error" id="message-error" role="alert"></p>
+            </div>
+
+            <button class="btn btn-primary" type="submit">
+              Send Message
+            </button>
+
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+
+    <div class="container footer-grid">
+
+      <p>
+        &copy; <span id="year">2026</span>
+        Hajira Yousuf Ali. All rights reserved.
+      </p>
+
+      <nav aria-label="Footer navigation">
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+<ul class="socials">
+  <li>
+    <a href="https://github.com/HajiraYousuf"
+       target="_blank" rel="noopener"
+       aria-label="GitHub"
+       title="GitHub">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path fill="currentColor" d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.05c-3.34.73-4.04-1.42-4.04-1.42-.55-1.39-1.33-1.76-1.33-1.76-1.09-.75.08-.74.08-.74 1.2.08 1.84 1.23 1.84 1.23 1.07 1.83 2.8 1.3 3.49.99.11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.34-5.47-5.95 0-1.31.47-2.38 1.23-3.22-.12-.3-.53-1.53.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.65 1.65.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.62-2.8 5.64-5.48 5.94.43.37.81 1.1.81 2.22v3.29c0 .32.22.69.83.57A12 12 0 0 0 12 .5Z"/>
+      </svg>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.linkedin.com/in/hajira-yousuf/"
+       target="_blank" rel="noopener"
+       aria-label="LinkedIn"
+       title="LinkedIn">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path fill="currentColor" d="M20.45 2H3.55C2.69 2 2 2.68 2 3.52v16.96c0 .84.69 1.52 1.55 1.52h16.9c.86 0 1.55-.68 1.55-1.52V3.52c0-.84-.69-1.52-1.55-1.52ZM8 18.5H5V9h3v9.5ZM6.5 7.7a1.75 1.75 0 1 1 0-3.5 1.75 1.75 0 0 1 0 3.5Zm12 10.8h-3v-4.62c0-1.1-.02-2.52-1.54-2.52-1.54 0-1.78 1.2-1.78 2.44v4.7h-3V9h2.88v1.3h.04c.4-.75 1.38-1.54 2.84-1.54 3.04 0 3.6 2 3.6 4.6v5.14Z"/>
+      </svg>
+    </a>
+  </li>
+
+  <li>
+    <a href="mailto:hajirayousuf180@gmail.com"
+       aria-label="Email"
+       title="Email">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path fill="currentColor" d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm-.4 4.25-7.6 5.05-7.6-5.05A1 1 0 0 1 4 6h16a1 1 0 0 1-.4 2.25Z"/>
+      </svg>
+    </a>
+  </li>
+</ul>
+
+    </div>
+  </footer>
+
+
+  <script src="js/script.js" defer></script>
+
+</body>
+</html>
